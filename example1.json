@@ -1,0 +1,8 @@
+{
+  "Dependencies": {
+    "beautifulsoup4": "4.4.1",
+    "boto": "2.48.0",
+    "bz2file": "0.98",
+    "requests": "2.18.3"
+  }
+}
