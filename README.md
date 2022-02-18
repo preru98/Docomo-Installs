@@ -21,7 +21,7 @@ source env/bin/activate
 ```bash
 
 # All dependencies installed successfully
-> node main.js example1.json
+> node docomo.js example1.json
 
 Installing beautifulsoup4==4.4.1.......
 Installing boto==2.48.0.......
@@ -37,7 +37,7 @@ Successfully installed all dependencies
 _______________________________________________________________________________________________
 
 # Installation fails for one of the dependencies.
-> node main.js example2.json
+> node docomo.js example2.json
 
 Installing request==2.18.3.......
 Installing beautifulsoup4==4.4.1.......
@@ -55,7 +55,7 @@ Failed to install: request, numpy
 _______________________________________________________________________________________________
 
 # Timeout for one of the dependencies.
-> node main.js example3.json
+> node docomo.js example3.json
 
 Installing beautifulsoup4==4.4.1.......
 Installing boto==2.48.0.......
